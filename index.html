@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <link href="main.css" rel="stylesheet">
+  <script src="app.js" defer></script>
+  <title>PlayCoolGames</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    
+    <div class="row">
+
+      <div class="col">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+          <!-- <nav class="navbar navbar-dark bg-dark"> -->
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="width:10%"><img src="logo3.png" style="width:100%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Action</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Adventure</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Arcade</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Board</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Racing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sports</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="image1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="image2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="image3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <!-- <a href="dl.php?ir=61" class="carousel-item"><img class="cost30" src="https://playcool.games/hgame/33.Ranger vs Zombies/Icons/Icon_512.png"></a>
+              <a href="dl.php?ir=70" class="carousel-item"><img class="cost9" src="https://playcool.games/hgame/38.Pops Billiards/Icons/icon_512.png"></a>
+              <a href="dl.php?ir=48" class="carousel-item"><img class="cost91" src="https://playcool.games/hgame/26.Zombie Buster/Icons/Icon_512.png"></a>
+              <a href="dl.php?ir=45" class="carousel-item"><img class="cost9" src="https://playcool.games/hgame/25.Halloween Memory/Icons/Icon_512.png"></a>
+              <a href="dl.php?ir=34" class="carousel-item"><img class="cost91" src="https://playcool.games/hgame/19.Happy Halloween/Icons/Icon_512.png"></a>
+              <a href="dl.php?ir=64" class="carousel-item"><img class="cost9" src="https://playcool.games/hgame/35.Christmas Balls/Icons/Icon_512.png"></a>
+              <a href="dl.php?ir=21" class="carousel-item"><img class="cost91" src="https://playcool.games/hgame/12.Traffic Command/Icons/Icon_512.png"></a>
+             <a href="dl.php?ir=103" class="carousel-item"><img class="nocost30" src="https://playcool.games/hgame/68.Super PonGoal/Icons/icon_512.png"></a>
+              <a href="dl.php?ir=89" class="carousel-item"><img class="nocost9" src="https://playcool.games/hgame/54.Kids True Color/Icons/Icon_512.png"></a>
+              <a href="dl.php?ir=6" class="carousel-item"><img class="nocost91" src="https://playcool.games/hgame/04.Sahara Invasion/Icons/Icon_512.png"></a>
+              <a href="dl.php?ir=115" class="carousel-item"><img class="nocost93" src="https://playcool.games/hgame/80.Easter Memory/Icons/icon_512.png"></a>
+              <a href="dl.php?ir=26" class="carousel-item"><img class="nocost913" src="https://playcool.games/hgame/15.Santa Run/Icons/Icon_512.png"></a> -->
+          </div>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="row mt-2">
+      <div class="col">
+
+
+        <div class="container-fluid px-5 py-4">
+
+
+
+          <div class="row mt-2">
+            <div class="col">
+              <div class="container-fluid">
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="section_info">
+                      <h4>Just Arrived</h4><span>View More</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row image_row">
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(1).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(10).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(11).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(12).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(13).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(14).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(15).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(16).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(17).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(18).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(19).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(2).png"></a></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row mt-2">
+            <div class="col">
+              <div class="container-fluid">
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="section_info">
+                      <h4>Most Visited</h4><span>View More</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row image_row">
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(20).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(21).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(22).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(23).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(24).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(26).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(27).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(28).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(29).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(3).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(30).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(31).png"></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="row mt-2">
+            <div class="col">
+              <div class="container-fluid">
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="section_info">
+                      <h4>Most Played</h4><span>View More</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row image_row">
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(32).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(33).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(34).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(35).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(36).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(37).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(38).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(39).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(4).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(40).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(41).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(42).png"></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row mt-2">
+            <div class="col">
+              <div class="container-fluid">
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="section_info">
+                      <h4>Popular Games</h4><span>View More</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="row image_row">
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(43).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(44).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(45).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(46).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(47).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(48).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(49).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(5).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(50).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(51).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(52).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(53).png"></a></div>
+
+
+
+                </div>
+
+
+                <div class="row image_row">
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(54).png"></a></div>
+                  <div class="col"> <a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(55).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(56).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(57).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(58).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(59).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(6).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(60).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(61).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(62).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(63).png"></a></div>
+                  <div class="col"><a href="" class="col"><img class="cost91"
+                        src="PlayCool.Games_files/Icon_512(64).png"></a></div>
+
+
+                </div>
+
+              </div>
+
+              <div class="row image_row">
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(65).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(66).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(67).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(68).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(69).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(7).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(70).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(71).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(72).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(73).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(74).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(75).png"></a></div>
+              </div>
+
+              <div class="row image_row">
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(76).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(77).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(78).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(79).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(8).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(80).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(81).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(9).png"></a></div>
+                <div class="col"> <a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(54).png"></a></div>
+                <div class="col"> <a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(55).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(56).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(57).png"></a></div>
+              </div>
+
+              <div class="row image_row">
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(32).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(33).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(34).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(35).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(36).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(37).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(38).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(39).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(4).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(40).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(41).png"></a></div>
+                <div class="col"><a href="" class="col"><img class="cost91"
+                      src="PlayCool.Games_files/Icon_512(42).png"></a></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+    <div class="row footer">
+      <div class="col"></div>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
